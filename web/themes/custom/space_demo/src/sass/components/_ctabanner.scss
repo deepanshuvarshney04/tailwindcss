@@ -1,0 +1,95 @@
+.cta-banner {
+    padding: 40px;
+    text-align: center;
+    @media screen and (max-width: (map-get($breakpoints, sm) - 1)){
+        padding: 40px 0;
+     }
+     @media screen and (max-width: (map-get($breakpoints, xs) - 1)){
+        padding: 40px;
+     }
+
+    .cta-back {
+        background: #DAEDED;
+        border-radius: 16px;
+        padding: 80px 0px;
+
+        .cta-banner-card {
+            .layout__region--content {
+                .block-field-blockblock-contentcta-bannerinfo {
+                    .field--name-info {
+                        font-size: 30px;
+                        font-weight: 700;
+                        color: $sitecolor;
+                        line-height: 44px;
+                        padding-bottom: 16px;
+                    }
+                }
+
+                .block-field-blockblock-contentcta-bannerbody {
+                    .field--name-body {
+                        p {
+                            font-size: 16px;
+                            font-weight: 400;
+                            color: #2F3941;
+                            line-height: 32px;
+                            padding-bottom: 16px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .cta-banner-button {
+            .layout__region--content {
+                @include d-flex;
+
+                .block-field-blockblock-contentcta-bannerfield-learn-more {
+                    .field--name-field-learn-more {
+                        padding-right: 15px;
+
+                        a {
+                            padding: 12px 20px;
+                            background: $colorwhite;
+                            border: 1px solid #D8DCDE;
+                            box-shadow: 0px 1px 4px rgba(16, 24, 40, 0.05);
+                            border-radius: 8px;
+                            color: #2F3941;
+                            font-weight: 500;
+                            @media screen and (max-width: (map-get($breakpoints, xs) - 1)){
+                                padding: 10px 15px;
+                                font-size: 12px;
+                             }
+                            &:hover {
+                                background: $linkhover;
+                                box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.5);
+                            }
+                        }
+                    }
+                }
+
+                .block-field-blockblock-contentcta-bannerfield-link-url {
+                    .field--name-field-link-url {
+                        a {
+                            padding: 12px 20px;
+                            background: $sitecolor;
+                            border: 1px solid $sitecolor;
+                            box-shadow: 0px 1px 4px rgba(16, 24, 40, 0.05);
+                            border-radius: 8px;
+                            color: $colorwhite;
+                            font-weight: 500;
+                            @media screen and (max-width: (map-get($breakpoints, xs) - 1)){
+                                padding: 10px 15px;
+                                font-size: 12px;
+                             }
+                            &:hover {
+                                background: $colorwhite;
+                                color: $sitecolor;
+                                box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.5);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

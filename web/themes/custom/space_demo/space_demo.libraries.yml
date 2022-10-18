@@ -1,0 +1,15 @@
+global-style:
+  version: VERSION
+  css:
+    theme:
+      assets/css/style.css: {}
+      node_modules/flexslider/flexslider.css: {}
+  js:
+    assets/js/main.js: {}
+    node_modules/flexslider/jquery.flexslider-min.js: { minified: true }
+    node_modules/flexslider/jquery.flexslider.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupalSettings
+    - core/drupal
+    - core/once

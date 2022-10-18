@@ -1,0 +1,170 @@
+.footer-section{
+    background: #F5FCFC;
+    padding-top: 64px;
+    
+    .footer-top{
+        @media screen and (max-width: (map-get($breakpoints, xs) - 1)){
+            padding: 0 40px;
+         }
+        #block-footertopcontent{
+            p{
+                color: $sitecolor;
+                font-weight: 700;
+                font-size: 85px;
+                line-height: 96px;
+                padding-bottom: 48px;
+                border-bottom: 1px solid #E9EBED;
+                @media screen and (max-width: (map-get($breakpoints, xs) - 1)){
+                    font-size: 50px;
+                    line-height: 60px;
+                 }
+            }
+        }
+    }
+    .footer-mid{
+        padding: 48px 0 64px 0;
+        @media screen and (max-width: (map-get($breakpoints, xs) - 1)){
+            padding: 48px 0 48px 0;
+         }
+        .footer-first{
+            p{
+                color: #2F3941;
+                font-size: 18px;
+                font-weight: 700;
+                line-height: 28px;
+                @media screen and (max-width: (map-get($breakpoints, xs) - 1)){
+                    text-align: center;
+                 }
+            }
+            .actions{
+                display: flex;
+                align-items: center;
+                padding-left: 0;
+                @media screen and (max-width: (map-get($breakpoints, xs) - 1)){
+                    justify-content: center;
+                 }
+                li a {
+                    list-style: none;
+                    padding-right: 24px;
+                    color: #68737D;
+                    &:hover{
+                        font-size: 18px;
+                    }
+                span{
+                    display: none;
+                }
+            }
+            }
+        }
+        .footer-second{
+            #block-footerfirstmenu{
+                .menu{
+                    .menu-item{
+                        @media screen and (max-width: (map-get($breakpoints, xs) - 1)){
+                            text-align: center;
+                         }
+                        a{
+                            @include footer-menu(#68737D);
+                            &:hover{
+                                @include footer-hover;
+                            }
+                        }
+                        span{
+                            @include footer-menu(#68737D);
+                        }
+                    }
+                }
+            }
+        }
+        .footer-third{
+            #block-footersecondmenu{
+                .menu{
+                    .menu-item{
+                        @media screen and (max-width: (map-get($breakpoints, xs) - 1)){
+                            text-align: center;
+                         }
+                        a{
+                            @include footer-menu(#68737D);
+                            &:hover{
+                                @include footer-hover;
+                            }
+                        }
+                        span{
+                            @include footer-menu(#68737D);
+                        }
+                    }
+                }
+            }
+        }
+        .footer-fourth{
+            #block-footerthirdmenu{
+                .menu{
+                    padding-left: 70px;
+                    @media screen and (max-width: (map-get($breakpoints, md) - 1)){
+                        padding-left: 30px;
+                    }
+                    @media screen and (max-width: (map-get($breakpoints, xs) - 1)){
+                        padding-left: 0;
+                     }
+                    .menu-item{
+                        @media screen and (max-width: (map-get($breakpoints, xs) - 1)){
+                            text-align: center;
+                         }
+                        a{
+                            @include footer-menu($sitecolor);
+                            &:after{
+                                content: "\2197";
+                                padding-left: 6px;
+                            }
+                            &:hover{
+                                @include footer-hover;
+                            }
+                        }
+                        span{
+                            @include footer-menu($sitecolor);
+                            &:after{
+                                content: "\2197";
+                                padding-left: 6px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .footer-bottom{
+        border-top: 1px solid #E9EBED;
+        padding-top: 32px;
+        .footer-left{
+            #block-footermenu{
+                .menu{
+                    @include d-flex;
+                    justify-content: flex-end;
+                    @media screen and (max-width: (map-get($breakpoints, sm) - 1)){
+                        justify-content: center;;
+                    }
+                    li{
+                        padding-right: 16px;
+                        &:last-child {
+                            padding-right: 0;
+                        }
+                        a{
+                            color: $sitecolor;
+                            font-weight: 500;
+                        }
+                    }
+                }
+            }
+        }
+        .footer-right{
+            @media screen and (max-width: (map-get($breakpoints, sm) - 1)){
+                text-align: center;
+            }
+            .footer-text{
+                color: #68737D;
+                font-weight: 400;
+            }
+        }
+    }
+   
+}

@@ -1,0 +1,112 @@
+.main-slider{
+  #block-mainsliderblock{
+    position: relative;
+    .layout--twocol-section{
+        .layout__region--first{
+            padding: 60px 162px 60px 105px;
+            background-color: #90BBBB;
+            @media screen and (max-width: (map-get($breakpoints, md) - 1)) and (min-width:(map-get($breakpoints, sm))){
+              padding: 49px 140px 0 85px;
+          }
+          @media screen and (max-width: (map-get($breakpoints, sm) - 1)){
+            padding: 50px 110px 60px 71px;
+        }
+        @media screen and (max-width: 639px){
+          padding: 60px 110px 75px 71px;
+      }
+            .block-views-blockhome-page-main-slider--block-1{
+                .slider-pad{
+                .flexslider{
+                    position: relative;
+                    border: 0;
+                    margin: 0;
+                    .flex-control-nav{
+                        position: absolute;
+                        bottom: -80px;
+                        left: 0px;
+                        text-align: start;
+                        @media screen and (max-width: (map-get($breakpoints, sm) - 1)){
+                          bottom: -60px;
+                      }
+                    }
+                    .flex-control-paging li {
+                        margin: 0 4px;
+                        &:nth-child(1) {
+                          margin-left: 0px;
+                        }
+                        a {
+                          width: 8px;
+                          height: 8px;
+                          background-color: $colorwhite;
+                          @media screen and (max-width: (map-get($breakpoints, md) - 1)){
+                            width: 6px;
+                          height: 6px;
+                        }
+                        }
+                        a.flex-active {
+                          background-color: $sitecolor;
+                        }
+                      }
+                }
+            }
+            }
+            
+        }
+    }
+    .layout--onecol .block-field-blockblock-contentbannerbody{
+      position: absolute;
+      transform: translate(-50%,-50%);
+      top: 50%;
+      left: 50%;
+      text-align: center;
+      z-index: 3;
+      @media screen and (max-width: 639px){
+        display: none;
+    }
+        h1{
+          font-family: 'Space Grotesk';
+          font-style: normal;
+          font-size: 50px;
+          font-weight: 700;
+          line-height: 54px;
+          color: $colorwhite;
+          @media screen and (max-width: (map-get($breakpoints, md) - 1)) and (min-width:(map-get($breakpoints, sm))){
+            font-size: 42px;
+            line-height: 48px;
+        }
+        @media screen and (max-width: (map-get($breakpoints, sm) - 1)){
+          font-size: 33px;
+          line-height: 40px;
+      }
+        }
+        p{
+          margin-top: 50px;
+          @media screen and (max-width: (map-get($breakpoints, sm) - 1)){
+            margin-top: 35px;
+        }
+          
+        a{
+          background: $sitecolor;
+          border: 1px solid $sitecolor;
+          box-shadow: 0px 1px 4px rgba(16, 24, 40, 0.05);
+          border-radius: 8px;
+          font-size: 18px;
+          color: $colorwhite;
+          padding: 8px 20px;
+          @media screen and (max-width: (map-get($breakpoints, md) - 1)) and (min-width:(map-get($breakpoints, sm))){
+            font-size: 16px;
+            padding: 6px 18px;
+        }
+        @media screen and (max-width: (map-get($breakpoints, sm) - 1)){
+          font-size: 14px;
+            padding: 5px 16px;
+      }
+          &:hover {
+            background: $linkhover;
+            box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.5);
+        }
+        }
+      }
+    }
+  }
+}

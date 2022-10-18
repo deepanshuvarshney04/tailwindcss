@@ -20,7 +20,14 @@
         "drupal/core-recommended": "^9.2",
         "pantheon-systems/drupal-integrations": "^9",
         "cweagans/composer-patches": "^1.7",
-        "drush/drush": "^11 || ^12"
+        "drush/drush": "^11.2",
+        "drupal/admin_toolbar": "^3.2",
+        "drupal/better_search": "^1.6",
+        "drupal/flexslider": "^2.0",
+        "drupal/fontawesome": "^2.23",
+        "drupal/layout_builder_block": "^1.0",
+        "drupal/layout_builder_styles": "^2.0",
+        "drupal/menus_attribute": "^1.2"
     },
     "require-dev": {
         "drupal/core-dev": "^9.2"

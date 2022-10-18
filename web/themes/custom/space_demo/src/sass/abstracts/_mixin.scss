@@ -1,0 +1,16 @@
+@mixin d-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+@mixin footer-hover {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+@mixin footer-menu ($menu-color){
+  font-weight: 500;
+  line-height: 24px;
+  color: $menu-color;
+}

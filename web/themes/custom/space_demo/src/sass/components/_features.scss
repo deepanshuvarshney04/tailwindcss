@@ -1,0 +1,113 @@
+.features-cards {
+    @media screen and (max-width: (map-get($breakpoints, xs) - 1)){
+        padding: 0 50px;
+     }
+    #block-theplatformofplatforms {
+        padding-bottom: 80px;
+
+        .features-left {
+            @media screen and (max-width: (map-get($breakpoints, sm) - 1)){
+                display: block;
+             }
+            .layout__region--first {
+                margin: auto;
+                padding-right: 144px;
+                @media screen and (max-width: (map-get($breakpoints, sm) - 1)){
+                    padding-right: 0;
+                    padding-bottom: 30px;
+                 }
+
+                .block-field-blockblock-contentbannerinfo {
+                    .field--name-info {
+                        color: $sitecolor;
+                        font-size: 30px;
+                        font-weight: 700;
+                        padding-bottom: 20px;
+                    }
+                }
+
+                .block-field-blockblock-contentbannerbody {
+                    .field--name-body {
+                        p {
+                            color: #68737D;
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 28px;
+                        }
+                    }
+                }
+
+                .block-field-blockblock-contentbannerfield-link-url {
+                    .field--name-field-link-url{
+                        margin-top: 44px;
+                    a {
+                        border: 1px solid #D8DCDE;
+                        box-shadow: 0px 1px 4px rgba(16, 24, 40, 0.05);
+                        border-radius: 8px;
+                        padding: 12px 20px;
+                        margin-top: 44px;
+                        color: #2F3941;
+                        &:hover {
+                            background: $linkhover;
+                            box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.5);
+                        }
+                    }
+                }
+                }
+            }
+
+            .layout__region--second {
+                .block-field-blockblock-contentbannerfield-image {
+                    .field--name-field-image {
+                        max-width: 96%;
+                    }
+                }
+            }
+        }
+    }
+
+    #block-unleashthepowerofdxp {
+        .features-right {
+            @media screen and (max-width: (map-get($breakpoints, sm) - 1)){
+                display: flex;
+                flex-direction: column-reverse;
+             }
+            .layout__region--second {
+                margin: auto;
+                padding-left: 144px;
+                @media screen and (max-width: (map-get($breakpoints, sm) - 1)){
+                    padding-left: 0;
+                    padding-top: 30px;
+                 }
+
+                .block-field-blockblock-contentbannerinfo {
+                    .field--name-info {
+                        color: #17494D;
+                        font-size: 30px;
+                        font-weight: 700;
+                        padding-bottom: 20px;
+                    }
+                }
+
+                .block-field-blockblock-contentbannerbody {
+                    .field--name-body {
+                        p {
+                            color: #68737D;
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 28px;
+                        }
+                    }
+                }
+            }
+
+            .layout__region--first {
+                .block-field-blockblock-contentbannerfield-image {
+                    .field--name-field-image {
+                        max-width: 96%;
+                    }
+                }
+            }
+        }
+    }
+}
