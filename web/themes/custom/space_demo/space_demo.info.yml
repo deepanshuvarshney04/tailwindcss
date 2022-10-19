@@ -19,6 +19,7 @@ regions:
         breadcrumb: Breadcrumb
         highlighted: Highlighted
         content: Content
+        sidebar_right: SideBar Right
         footer_top: Footer Top
         footer_first: Footer First
         footer_second: Footer Second
