@@ -1,0 +1,30 @@
+name: Tailwind CSS Demo
+type: theme
+Description: This theme is create for Tailwind CSS Demo
+core_version_requirement: ^8 || ^9
+package: Other
+base theme: classy
+
+libraries:
+    - tailwind_demo/tailwind-style
+
+regions:
+        header: Header
+        main_menu: Main Menu
+        search: Search Section
+        login: Log In Button
+        main_slider: Main Slider
+        benefit_card: Benefit Cards
+        feature_middle: Feature Middle
+        cta_banner: CTA Banner
+        breadcrumb: Breadcrumb
+        highlighted: Highlighted
+        content: Content
+        sidebar_right: SideBar Right
+        footer_top: Footer Top
+        footer_first: Footer First
+        footer_second: Footer Second
+        footer_third: Footer Third
+        footer_fourth: Footer Fourth
+        footer_bottom_right: Footer Bottom Right
+        footer_bottom_left: Footer Bottom Left

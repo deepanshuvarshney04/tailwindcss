@@ -1,6 +1,8 @@
 var gulp = require('gulp');
 var livereload = require('gulp-livereload')
 var sass = require('gulp-sass')(require('sass'));
+//var tailwindcss = require("tailwindcss");
+var cssnano = require("cssnano");
 //var autoprefixer = require('gulp-autoprefixer');
 var autoprefixer = require("autoprefixer");
 var postcss = require("gulp-postcss");
@@ -23,16 +25,33 @@ gulp.task('imagemin', function () {
 
 
 gulp.task('sass', done => {
+    //var processors = [tailwindcss, autoprefixer, cssnano];
     gulp.src('./src/sass/**/*.scss')
         .pipe(sassGlob())
         .pipe(sourcemaps.init())
         .pipe(sass().on("error", sass.logError))
         .pipe(postcss([autoprefixer("last 2 version", "ie 8", "ie 9")]))
+        //.pipe(postcss(processors))
         .pipe(cleanCss())
         .pipe(sourcemaps.write())
         .pipe(gulp.dest('./assets/css'));
     done();
 });
+
+
+// gulp.task('tailwind', gulp.series('sass', function () {
+//     var tailwindcss = require('tailwindcss');
+//     var postcssimport = require('postcss-import');
+
+//     return gulp.src('src/sass/tailwind.scss')
+//         .pipe(sass().on('error', sass.logError))
+//         .pipe(postcss([
+//             postcssimport(),
+//             tailwindcss('./tailwind.config.js'),
+//             autoprefixer(),
+//         ]))
+//         .pipe(gulp.dest('./assets/css/tailwind.css'));
+// }));
 
 
 gulp.task('watch', function(){
