@@ -1,0 +1,130 @@
+.main-slider #block-tailwind-demo-mainsliderblock .layout--twocol-section .layout__region--first{
+    @apply pt-16 pb-20 pr-40 pl-28 bg-sky-200;
+}
+
+.flexslider{
+    @apply m-0 border-0 !important;
+}
+
+.benefit-pad{
+    @apply py-32;
+}
+
+.benefit-cards .block-views-blockbenefits-section-block-2 .view-header h3{
+    @apply leading-9 font-bold text-gray-800 text-3xl;
+}
+
+.benefit-cards .block-views-blockbenefits-section-block-2 .view-header p{
+    @apply leading-8 font-normal text-gray-600;
+}
+
+.main-slider #block-tailwind-demo-mainsliderblock{
+    @apply relative;
+}
+
+.main-slider #block-tailwind-demo-mainsliderblock .layout--onecol .block-field-blockblock-contentbannerbody{
+    @apply absolute -translate-x-2/4 -translate-y-1/2 top-1/2 left-1/2 text-center z-30;
+}
+
+.main-slider #block-tailwind-demo-mainsliderblock .layout--twocol-section .layout__region--first .block-views-blockhome-page-main-slider--block-1 .slider-pad .flexslider .flex-control-nav{
+    @apply absolute -bottom-20 -left-1.5 text-left;
+}
+
+.main-slider #block-tailwind-demo-mainsliderblock .layout--twocol-section .layout__region--first .block-views-blockhome-page-main-slider--block-1 .slider-pad .flexslider .flex-control-paging li{
+    @apply mx-1;
+}
+.main-slider #block-tailwind-demo-mainsliderblock .layout--twocol-section .layout__region--first .block-views-blockhome-page-main-slider--block-1 .slider-pad .flexslider .flex-control-paging li a{
+    @apply w-2 h-2 bg-white;
+}
+
+.main-slider #block-tailwind-demo-mainsliderblock .layout--twocol-section .layout__region--first .block-views-blockhome-page-main-slider--block-1 .slider-pad .flexslider .flex-control-paging li a.flex-active {
+    @apply bg-teal-900;
+}
+
+.main-slider #block-tailwind-demo-mainsliderblock .layout--onecol .block-field-blockblock-contentbannerbody h1{
+    @apply text-5xl font-bold text-white leading-10;
+}
+
+.main-slider #block-tailwind-demo-mainsliderblock .layout--onecol .block-field-blockblock-contentbannerbody p{
+    @apply mt-12;
+}
+.main-slider #block-tailwind-demo-mainsliderblock .layout--onecol .block-field-blockblock-contentbannerbody p a{
+    @apply bg-teal-900 text-lg text-white py-2 px-5 shadow-transparent rounded-lg;
+}
+
+
+.features-cards #block-tailwind-demo-theplatformofplatforms{
+    @apply pb-20;
+}
+
+.features-cards #block-tailwind-demo-theplatformofplatforms .features-left .layout__region--first{
+    @apply m-auto pr-32
+}
+
+.features-cards #block-tailwind-demo-theplatformofplatforms .features-left .layout__region--first .block-field-blockblock-contentbannerinfo .field--name-info{
+    @apply text-teal-900 text-3xl font-bold pb-5;
+}
+
+.features-cards #block-tailwind-demo-theplatformofplatforms .features-left .layout__region--first .block-field-blockblock-contentbannerbody .field--name-body p{
+    @apply text-gray-600 font-normal text-base leading-7;
+}
+
+.features-cards #block-tailwind-demo-theplatformofplatforms .features-left .layout__region--first .block-field-blockblock-contentbannerfield-link-url .field--name-field-link-url a{
+    @apply rounded-lg pt-3 pb-3 pr-5 pl-5 mt-10 text-gray-800 border shadow-transparent;
+}
+
+.features-cards #block-tailwind-demo-theplatformofplatforms .features-left .layout__region--first .block-field-blockblock-contentbannerfield-link-url .field--name-field-link-url{
+    @apply mt-10;
+}
+
+.features-cards #block-tailwind-demo-theplatformofplatforms .features-left .layout__region--second .block-field-blockblock-contentbannerfield-image .field--name-field-image{
+    max-width: 96%;
+}
+
+.features-cards #block-tailwind-demo-unleashthepowerofdxp .features-right .layout__region--first .block-field-blockblock-contentbannerfield-image .field--name-field-image{
+    max-width: 96%;
+}
+
+.features-cards #block-tailwind-demo-unleashthepowerofdxp .features-right .layout__region--second{
+    @apply m-auto pl-32;
+}
+
+.features-cards #block-tailwind-demo-unleashthepowerofdxp .features-right .layout__region--second .block-field-blockblock-contentbannerinfo .field--name-info{
+    @apply text-teal-900 text-3xl font-bold pb-5;
+}
+
+.features-cards #block-tailwind-demo-unleashthepowerofdxp .features-right .layout__region--second .block-field-blockblock-contentbannerbody .field--name-body p{
+    @apply text-gray-600 font-normal text-base leading-7;
+}
+
+.cta-banner{
+    @apply py-10 text-center;
+}
+
+.cta-banner .cta-back{
+    @apply bg-gray-300 pt-20 pb-20 rounded-2xl;
+}
+
+.cta-banner .cta-back .cta-banner-card .layout__region--content .block-field-blockblock-contentcta-bannerinfo .field--name-info{
+    @apply text-3xl font-bold text-teal-900 pb-4 leading-10;
+}
+
+.cta-banner .cta-back .cta-banner-card .layout__region--content .block-field-blockblock-contentcta-bannerbody .field--name-body p{
+    @apply text-base font-normal text-gray-800 leading-8 pb-4;
+}
+
+.cta-banner .cta-back .cta-banner-button .layout__region--content{
+    @apply flex justify-center items-center;
+}
+
+.cta-banner .cta-back .cta-banner-button .layout__region--content .block-field-blockblock-contentcta-bannerfield-learn-more .field--name-field-learn-more{
+    @apply pr-4;
+}
+
+.cta-banner .cta-back .cta-banner-button .layout__region--content .block-field-blockblock-contentcta-bannerfield-learn-more .field--name-field-learn-more a{
+    @apply pt-3 pb-3 pr-5 pl-5 bg-white text-gray-800 font-medium border rounded-lg shadow-transparent;
+}
+
+.cta-banner .cta-back .cta-banner-button .layout__region--content .block-field-blockblock-contentcta-bannerfield-link-url .field--name-field-link-url a{
+    @apply pt-3 pb-3 pr-5 pl-5 bg-teal-900 text-white font-medium border rounded-lg shadow-transparent;
+}
