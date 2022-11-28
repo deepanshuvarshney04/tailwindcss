@@ -1148,6 +1148,21 @@ body{
 }
 
 .footer-section .footer-mid .footer-fourth #block-tailwind-demo-footerthirdmenu .menu .menu-item a{
+  padding-left: 0.25rem;
+  font-weight: 600;
+}
+
+.footer-section .footer-mid .footer-fourth #block-tailwind-demo-footerthirdmenu .menu .menu-item a::after{
+  --tw-content: ' ↗';
+  content: var(--tw-content);
+}
+
+.footer-section .footer-mid .footer-fourth #block-tailwind-demo-footerthirdmenu .menu .menu-item a:hover{
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.footer-section .footer-mid .footer-fourth #block-tailwind-demo-footerthirdmenu .menu .menu-item a{
   font-weight: 500;
   --tw-text-opacity: 1;
   color: rgb(23 73 77 / var(--tw-text-opacity));

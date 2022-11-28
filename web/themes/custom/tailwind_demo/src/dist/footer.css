@@ -39,6 +39,10 @@
 }
 
 .footer-section .footer-mid .footer-fourth #block-tailwind-demo-footerthirdmenu .menu .menu-item a{
+    @apply after:content-['_↗'] pl-1 hover:text-lg font-semibold;
+}
+
+.footer-section .footer-mid .footer-fourth #block-tailwind-demo-footerthirdmenu .menu .menu-item a{
     @apply text-footer-fourth font-medium;
 }
 
