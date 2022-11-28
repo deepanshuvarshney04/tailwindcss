@@ -1,0 +1,19 @@
+.header .search-section .region-search #block-tailwind-demo-searchform{
+    @apply relative invisible;
+}
+
+.header .search-section .region-search #block-tailwind-demo-searchform .js-form-type-search input[type=search]{
+    @apply py-2 px-4 absolute right-6 -top-1.5 bg-gray-200 rounded-md border-0;
+}
+
+.header .search-section .region-search #block-tailwind-demo-searchform .form-actions input[type=submit]{
+    @apply font-fontawesome text-f-13 border-0 rounded-3xl absolute top-0 right-7 p-2 bg-gray-200;
+}
+
+.header .search-section span{
+    @apply absolute -translate-x-2.5 translate-y-2 font-fontawesome;
+}
+
+.header .log-in .region-login #block-tailwind-demo-useraccountmenu a{
+    @apply px-3 py-3 bg-teal-900 text-white rounded-xl;
+}

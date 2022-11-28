@@ -1,0 +1,15 @@
+.benefit-pad{
+    @apply py-32;
+}
+
+.benefit-cards .block-views-blockbenefits-section-block-2 .view-header h3{
+    @apply leading-9 font-bold text-gray-800 text-3xl;
+}
+
+.benefit-cards .block-views-blockbenefits-section-block-2 .view-content .benefits-text p{
+    @apply text-card-body leading-5 font-normal text-sm mb-4;
+}
+
+.benefit-cards .block-views-blockbenefits-section-block-2 .view-header p{
+    @apply leading-8 font-normal text-gray-600;
+}

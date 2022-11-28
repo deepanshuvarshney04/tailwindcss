@@ -17,25 +17,25 @@
         {# Footer Top Twig Code End here #}
 
         {# Footer Middle Twig Code Start here #}
-        <div class="footer-mid">
-            <div class="row">
+        <div class="footer-mid pt-12 pb-16">
+            <div class="grid grid-cols-4">
                 {% if page.footer_first %}
-                <div class="col-lg-4 col-md-4 col-sm-6 footer-first">
+                <div class="grid justify-start footer-first">
                     {{ page.footer_first }}
                 </div>
                 {% endif %}
                 {% if page.footer_second %}
-                <div class="col-lg-3 col-md-3 col-sm-6 footer-second">
+                <div class="grid justify-center footer-second">
                     {{ page.footer_second }}
                 </div>
                 {% endif %}
                 {% if page.footer_third %}
-                <div class="col-lg-3 col-md-3 col-sm-6 footer-third">
+                <div class="grid justify-center footer-third">
                     {{ page.footer_third }}
                 </div>
                 {% endif %}
                 {% if page.footer_fourth %}
-                <div class="col-lg-2 col-md-2 col-sm-6 footer-fourth">
+                <div class="grid justify-end footer-fourth">
                     {{ page.footer_fourth }}
                 </div>
                 {% endif %}
@@ -44,16 +44,16 @@
         {# Footer Middle Twig Code End here #}
 
         {# Footer Bottom Twig Code Start here #}
-        <div class="footer-bottom">
-            <div class="row">
+        <div class="footer-bottom pt-8 border-t-1 border-solid border-bordercolor">
+            <div class="grid grid-cols-2">
+                <div class="footer-right grid justify-start">
+                    <p class="footer-text">© {{ "now"|date("Y") }} {{ 'SPACE'|t }}. {{ 'All Rights Reserved.'|t }}</p>
+                </div>
                 {% if page.footer_bottom_right %}
-                <div class="footer-left col-lg-6 col-md-6 col-sm-12 order-sm-1 order-lg-2 order-md-2">
+                <div class="footer-left grid justify-end">
                     {{ page.footer_bottom_right }}
                 </div>
                 {% endif %}
-                <div class="footer-right col-lg-6 col-md-6 col-sm-12 order-sm-2 order-lg-1 order-md-1">
-                    <p class="footer-text">© {{ "now"|date("Y") }} {{ 'SPACE'|t }}. {{ 'All Rights Reserved.'|t }}</p>
-                </div>
             </div>
         </div>
         {# Footer Bottom Twig Code End here #}

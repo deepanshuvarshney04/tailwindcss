@@ -5,6 +5,7 @@ tailwind-style:
       node_modules/flexslider/flexslider.css: {}
       assets/css/tailwind.css: {}
   js:
+    assets/js/main.js: {}
     node_modules/flexslider/jquery.flexslider-min.js: { minified: true }
     node_modules/flexslider/jquery.flexslider.js: {}
   dependencies:

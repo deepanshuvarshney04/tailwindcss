@@ -1,0 +1,43 @@
+.features-cards #block-tailwind-demo-theplatformofplatforms{
+    @apply pb-20;
+}
+
+.features-cards #block-tailwind-demo-theplatformofplatforms .features-left .layout__region--first{
+    @apply m-auto pr-32
+}
+
+.features-cards #block-tailwind-demo-theplatformofplatforms .features-left .layout__region--first .block-field-blockblock-contentbannerinfo .field--name-info{
+    @apply text-teal-900 text-3xl font-bold pb-5;
+}
+
+.features-cards #block-tailwind-demo-theplatformofplatforms .features-left .layout__region--first .block-field-blockblock-contentbannerbody .field--name-body p{
+    @apply text-gray-600 font-normal text-base leading-7;
+}
+
+.features-cards #block-tailwind-demo-theplatformofplatforms .features-left .layout__region--first .block-field-blockblock-contentbannerfield-link-url .field--name-field-link-url a{
+    @apply rounded-lg pt-3 pb-3 pr-5 pl-5 mt-10 text-gray-800 border shadow-transparent;
+}
+
+.features-cards #block-tailwind-demo-theplatformofplatforms .features-left .layout__region--first .block-field-blockblock-contentbannerfield-link-url .field--name-field-link-url{
+    @apply mt-10;
+}
+
+.features-cards #block-tailwind-demo-theplatformofplatforms .features-left .layout__region--second .block-field-blockblock-contentbannerfield-image .field--name-field-image{
+    max-width: 96%;
+}
+
+.features-cards #block-tailwind-demo-unleashthepowerofdxp .features-right .layout__region--first .block-field-blockblock-contentbannerfield-image .field--name-field-image{
+    max-width: 96%;
+}
+
+.features-cards #block-tailwind-demo-unleashthepowerofdxp .features-right .layout__region--second{
+    @apply m-auto pl-32;
+}
+
+.features-cards #block-tailwind-demo-unleashthepowerofdxp .features-right .layout__region--second .block-field-blockblock-contentbannerinfo .field--name-info{
+    @apply text-teal-900 text-3xl font-bold pb-5;
+}
+
+.features-cards #block-tailwind-demo-unleashthepowerofdxp .features-right .layout__region--second .block-field-blockblock-contentbannerbody .field--name-body p{
+    @apply text-gray-600 font-normal text-base leading-7;
+}

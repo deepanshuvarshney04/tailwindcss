@@ -1,0 +1,51 @@
+.footer-section{
+    @apply bg-footer-bg pt-16 mb-4;
+}
+
+.footer-section .footer-top #block-tailwind-demo-footertopcontent p{
+    @apply text-f-85 leading-lh-96 border-b-1 border-bordercolor border-solid text-teal-900 font-bold pb-12;
+}
+
+.footer-section .footer-mid .footer-first .actions{
+    @apply flex items-center pl-0;
+}
+
+.footer-section .footer-mid .footer-first p{
+    @apply text-gray-800 text-lg font-bold leading-7 mb-4;
+}
+
+.footer-section .footer-mid .footer-first .actions li a{
+    @apply pr-6 text-gray-600;
+}
+
+.footer-section .footer-mid .footer-first .actions li a span{
+    @apply hidden;
+}
+
+.footer-section .footer-bottom .footer-left #block-tailwind-demo-footermenu .menu{
+    @apply flex justify-end items-center;
+}
+
+.footer-section .footer-bottom .footer-left #block-tailwind-demo-footermenu .menu li{
+    @apply pr-4;
+}
+
+.footer-section .footer-mid .footer-second #block-tailwind-demo-footerfirstmenu .menu .menu-item a{
+    @apply text-footer-text font-medium; 
+}
+
+.footer-section .footer-mid .footer-third #block-tailwind-demo-footersecondmenu .menu .menu-item a{
+    @apply text-footer-text font-medium;
+}
+
+.footer-section .footer-mid .footer-fourth #block-tailwind-demo-footerthirdmenu .menu .menu-item a{
+    @apply text-footer-fourth font-medium;
+}
+
+.footer-section .footer-bottom .footer-right .footer-text{
+    @apply text-gray-600 font-normal;
+}
+
+.footer-section .footer-bottom .footer-left #block-tailwind-demo-footermenu .menu li a{
+    @apply text-teal-900 font-medium;
+}

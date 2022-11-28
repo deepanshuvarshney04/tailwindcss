@@ -1,0 +1,31 @@
+.cta-banner{
+    @apply py-10 text-center;
+}
+
+.cta-banner .cta-back{
+    @apply bg-card-body pt-20 pb-20 rounded-2xl;
+}
+
+.cta-banner .cta-back .cta-banner-card .layout__region--content .block-field-blockblock-contentcta-bannerinfo .field--name-info{
+    @apply text-3xl font-bold text-teal-900 pb-4 leading-10;
+}
+
+.cta-banner .cta-back .cta-banner-card .layout__region--content .block-field-blockblock-contentcta-bannerbody .field--name-body p{
+    @apply text-base font-normal text-gray-800 leading-8 pb-4;
+}
+
+.cta-banner .cta-back .cta-banner-button .layout__region--content{
+    @apply flex justify-center items-center;
+}
+
+.cta-banner .cta-back .cta-banner-button .layout__region--content .block-field-blockblock-contentcta-bannerfield-learn-more .field--name-field-learn-more{
+    @apply pr-4;
+}
+
+.cta-banner .cta-back .cta-banner-button .layout__region--content .block-field-blockblock-contentcta-bannerfield-learn-more .field--name-field-learn-more a{
+    @apply pt-3 pb-3 pr-5 pl-5 bg-white text-gray-800 font-medium border rounded-lg shadow-transparent;
+}
+
+.cta-banner .cta-back .cta-banner-button .layout__region--content .block-field-blockblock-contentcta-bannerfield-link-url .field--name-field-link-url a{
+    @apply pt-3 pb-3 pr-5 pl-5 bg-teal-900 text-white font-medium border rounded-lg shadow-transparent;
+}
