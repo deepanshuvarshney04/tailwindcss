@@ -2,6 +2,18 @@
     @apply relative invisible;
 }
 
+.header .search-section .region-search{
+    @apply max-[991px]:hidden;
+}
+
+.header .search-section .search-icon{
+    @apply max-[991px]:hidden;
+}
+
+.header .log-in .region-login #block-tailwind-demo-useraccountmenu{
+    @apply max-[767px]:hidden;
+}
+
 .header .search-section .region-search #block-tailwind-demo-searchform .js-form-type-search input[type=search]{
     @apply py-2 px-4 absolute right-6 -top-1.5 bg-gray-200 rounded-md border-0;
 }

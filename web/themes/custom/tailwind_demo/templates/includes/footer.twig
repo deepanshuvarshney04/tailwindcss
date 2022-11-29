@@ -18,24 +18,24 @@
 
         {# Footer Middle Twig Code Start here #}
         <div class="footer-mid pt-12 pb-16">
-            <div class="grid grid-cols-4">
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-4">
                 {% if page.footer_first %}
-                <div class="grid justify-start footer-first">
+                <div class="grid justify-center py-4 lg:justify-start p-0 footer-first">
                     {{ page.footer_first }}
                 </div>
                 {% endif %}
                 {% if page.footer_second %}
-                <div class="grid justify-center footer-second">
+                <div class="grid justify-center py-4 lg:justify-center p-0 footer-second">
                     {{ page.footer_second }}
                 </div>
                 {% endif %}
                 {% if page.footer_third %}
-                <div class="grid justify-center footer-third">
+                <div class="grid justify-center py-4 lg:justify-center p-0 footer-third">
                     {{ page.footer_third }}
                 </div>
                 {% endif %}
                 {% if page.footer_fourth %}
-                <div class="grid justify-end footer-fourth">
+                <div class="grid justify-center py-4 lg:justify-end p-0 footer-fourth">
                     {{ page.footer_fourth }}
                 </div>
                 {% endif %}
@@ -45,12 +45,12 @@
 
         {# Footer Bottom Twig Code Start here #}
         <div class="footer-bottom pt-8 border-t-1 border-solid border-bordercolor">
-            <div class="grid grid-cols-2">
-                <div class="footer-right grid justify-start">
+            <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2">
+                <div class="footer-right grid justify-center px-2 lg:justify-start p-0">
                     <p class="footer-text">© {{ "now"|date("Y") }} {{ 'SPACE'|t }}. {{ 'All Rights Reserved.'|t }}</p>
                 </div>
                 {% if page.footer_bottom_right %}
-                <div class="footer-left grid justify-end">
+                <div class="footer-left grid justify-center px-2 lg:justify-end p-0">
                     {{ page.footer_bottom_right }}
                 </div>
                 {% endif %}

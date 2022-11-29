@@ -23,9 +23,17 @@
 }
 
 .cta-banner .cta-back .cta-banner-button .layout__region--content .block-field-blockblock-contentcta-bannerfield-learn-more .field--name-field-learn-more a{
-    @apply pt-3 pb-3 pr-5 pl-5 bg-white text-gray-800 font-medium border rounded-lg shadow-transparent;
+    @apply py-3 px-5 bg-white text-gray-800 font-medium border rounded-lg shadow-transparent;
+}
+
+.cta-banner .cta-back .cta-banner-button .layout__region--content .block-field-blockblock-contentcta-bannerfield-learn-more .field--name-field-learn-more a{
+    @apply max-sm:px-4 text-xs;
 }
 
 .cta-banner .cta-back .cta-banner-button .layout__region--content .block-field-blockblock-contentcta-bannerfield-link-url .field--name-field-link-url a{
-    @apply pt-3 pb-3 pr-5 pl-5 bg-teal-900 text-white font-medium border rounded-lg shadow-transparent;
+    @apply py-3 px-5 bg-teal-900 text-white font-medium border rounded-lg shadow-transparent;
+}
+
+.cta-banner .cta-back .cta-banner-button .layout__region--content .block-field-blockblock-contentcta-bannerfield-link-url .field--name-field-link-url a{
+    @apply max-sm:px-4 text-xs;
 }

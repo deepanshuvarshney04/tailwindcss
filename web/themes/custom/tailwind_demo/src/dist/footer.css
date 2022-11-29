@@ -3,7 +3,7 @@
 }
 
 .footer-section .footer-top #block-tailwind-demo-footertopcontent p{
-    @apply text-f-85 leading-lh-96 border-b-1 border-bordercolor border-solid text-teal-900 font-bold pb-12;
+    @apply text-f-85 leading-lh-96 border-b-1 border-bordercolor border-solid text-teal-900 font-bold pb-12 max-sm:text-5xl max-sm:leading-lh-64;
 }
 
 .footer-section .footer-mid .footer-first .actions{

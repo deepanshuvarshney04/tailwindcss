@@ -8,8 +8,9 @@ module.exports = {
     container: {
       center: true,
       padding: {
-        DEFAULT: '1rem',
+        DEFAULT: '3rem',
         sm: '2rem',
+        md: '4rem',
         lg: '4rem',
         xl: '5rem',
         '2xl': '6rem',
@@ -44,6 +45,7 @@ module.exports = {
         'lh-48': '3rem',
         'lh-50': '3.12rem',
         'lh-55': '3.438rem',
+        'lh-64': '4rem',
         'lh-96': '6rem',
       },
       borderWidth: {
@@ -51,5 +53,28 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+ /*  corePlugins: {
+    container: false
+  }, */
+  plugins: [
+    function ({ addComponents }) {
+      addComponents({
+        '.container': {
+          maxWidth: '100%',
+          '@screen sm': {
+            maxWidth: '768px',
+          },
+          '@screen md': {
+            maxWidth: '992px',
+          },
+          '@screen lg': {
+            maxWidth: '1280px',
+          },
+          '@screen xl': {
+            maxWidth: '1400px',
+          },
+        }
+      })
+    }
+  ],
 }

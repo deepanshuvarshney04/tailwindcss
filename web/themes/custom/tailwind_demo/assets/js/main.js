@@ -19,3 +19,24 @@
       }
     };
   })(jQuery, Drupal, drupalSettings, once);
+
+  (function ($) {
+    Drupal.behaviors.drupalBookmenu = {
+      attach: function (context, settings) {
+  
+         // JS for Mobile Menu Toggle
+         let hamburger = document.querySelector('.hamburger');
+         let menu = document.querySelector('.nav');
+   
+         hamburger.addEventListener('click', function () {
+           hamburger.classList.toggle('isactive');
+           menu.classList.toggle('active');
+         });
+         // JS for Mobile Menu Toggle
+  
+         $(".hamburger .line").click(function(){
+            $("body").toggleClass("lock-scroll")
+         });
+       }
+     };
+   })(jQuery);

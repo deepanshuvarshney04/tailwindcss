@@ -4,6 +4,7 @@ tailwind-style:
     theme:
       node_modules/flexslider/flexslider.css: {}
       assets/css/tailwind.css: {}
+      assets/css/menumobile.css: {}
   js:
     assets/js/main.js: {}
     node_modules/flexslider/jquery.flexslider-min.js: { minified: true }

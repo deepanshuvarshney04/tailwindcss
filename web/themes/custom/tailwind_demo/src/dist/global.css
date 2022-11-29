@@ -5,3 +5,7 @@
 body {
     @apply overflow-x-hidden;
 }
+
+p{
+    @apply mt-0 mb-4;
+}

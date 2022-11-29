@@ -2,8 +2,17 @@
     @apply pb-20;
 }
 
+
+.features-cards #block-tailwind-demo-theplatformofplatforms .features-left{
+   @apply lg:flex md:flex;
+}
+
+.features-cards #block-tailwind-demo-unleashthepowerofdxp .features-right{
+    @apply lg:flex md:flex;
+}
+
 .features-cards #block-tailwind-demo-theplatformofplatforms .features-left .layout__region--first{
-    @apply m-auto pr-32
+    @apply pr-0 pb-8 lg:m-auto lg:pr-32 md:m-auto md:pr-32;
 }
 
 .features-cards #block-tailwind-demo-theplatformofplatforms .features-left .layout__region--first .block-field-blockblock-contentbannerinfo .field--name-info{
@@ -31,7 +40,7 @@
 }
 
 .features-cards #block-tailwind-demo-unleashthepowerofdxp .features-right .layout__region--second{
-    @apply m-auto pl-32;
+    @apply m-auto p-0 pt-8 lg:m-auto lg:pl-32 md:m-auto md:pl-32;
 }
 
 .features-cards #block-tailwind-demo-unleashthepowerofdxp .features-right .layout__region--second .block-field-blockblock-contentbannerinfo .field--name-info{
