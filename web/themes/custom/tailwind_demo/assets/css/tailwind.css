@@ -618,10 +618,6 @@ video {
   min-height: 100%;
 }
 
-.w-3\/4{
-  width: 75%;
-}
-
 .max-w-sm{
   max-width: 24rem;
 }
@@ -702,6 +698,11 @@ video {
 .bg-card-bg{
   --tw-bg-opacity: 1;
   background-color: rgb(1 43 48 / var(--tw-bg-opacity));
+}
+
+.object-cover{
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .p-0{
@@ -815,6 +816,10 @@ body{
 p{
   margin-top: 0px;
   margin-bottom: 1rem;
+}
+
+.lock-scroll{
+  overflow: hidden;
 }
 
 .header .search-section .region-search #block-tailwind-demo-searchform{
@@ -1230,7 +1235,6 @@ p{
 }
 
 .footer-section{
-  margin-bottom: 1rem;
   --tw-bg-opacity: 1;
   background-color: rgb(245 252 252 / var(--tw-bg-opacity));
   padding-top: 4rem;
@@ -1347,12 +1351,6 @@ p{
   }
 }
 
-@media not all and (min-width: 640px){
-  .max-sm\:w-3\/4{
-    width: 75%;
-  }
-}
-
 @media (min-width: 576px){
   .min-\[576px\]\:w-3\/4{
     width: 75%;
@@ -1360,10 +1358,6 @@ p{
 }
 
 @media (min-width: 640px){
-  .sm\:w-1\/2{
-    width: 50%;
-  }
-
   .sm\:w-3\/4{
     width: 75%;
   }

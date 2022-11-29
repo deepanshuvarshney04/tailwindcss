@@ -9,3 +9,7 @@ body {
 p{
     @apply mt-0 mb-4;
 }
+
+.lock-scroll{
+    @apply overflow-hidden;
+  }

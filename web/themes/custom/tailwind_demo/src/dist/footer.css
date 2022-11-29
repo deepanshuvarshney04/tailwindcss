@@ -1,5 +1,5 @@
 .footer-section{
-    @apply bg-footer-bg pt-16 mb-4;
+    @apply bg-footer-bg pt-16;
 }
 
 .footer-section .footer-top #block-tailwind-demo-footertopcontent p{
